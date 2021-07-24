@@ -1,0 +1,19 @@
+{
+  "name": "catappproject",
+  "version": "1.0.0",
+  "description": "please run \"npm install\" to get started then run\" npm start\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brando2moon/vigilant-journey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brando2moon/vigilant-journey/issues"
+  },
+  "homepage": "https://github.com/Brando2moon/vigilant-journey#readme"
+}
