@@ -11,7 +11,7 @@ module.exports = (req, res) => {
 
 	if (pathname === "/cats/add-cat" && req.method === "GET") {
 		let filePath = path.normalize(
-			path.join(__dirname, "./views/addCat.html")
+			path.join(__dirname, "../views/addCat.html")
 		);
 		const index = fs.createReadStream(filePath);
 		index.on("data", (data) => {
@@ -23,9 +23,9 @@ module.exports = (req, res) => {
 		index.on("error", (err) => {
 			res.write(err);
 		});
-	} else if (pathname === "/cats/add=breed" && req.method === "GET") {
+	} else if (pathname === "/cats/add-breed" && req.method === "GET") {
 		let filePath = path.normalize(
-			path.join(__dirname, "./views/addBreed.html")
+			path.join(__dirname, "../views/addBreed.html")
 		);
 		const index = fs.createReadStream(filePath);
 		index.on("data", (data) => {
